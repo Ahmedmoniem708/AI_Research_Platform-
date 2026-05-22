@@ -1,0 +1,25 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Document Processing
+opencv-python==4.8.1.78
+paddleocr==2.7.0.3
+
+# RAG Components
+sentence-transformers==2.2.2
+qdrant-client==1.6.3
+rank_bm25==0.2.2
+
+# Generation
+vllm==0.4.0.post1
+
+# Utilities
+python-multipart==0.0.6
+python-dotenv==1.0.0
+loguru==0.7.2
+
+# For development (optional)
+pytest==7.4.0
+black==23.11.0
